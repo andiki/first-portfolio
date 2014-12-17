@@ -1,0 +1,146 @@
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+    text-align: center;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-image: url('http://i.imgur.com/lvXbgcg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #FFCF33;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+}
+
+.content-footer,
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.social > li {
+    display: inline-block;
+  	font-weight:bold;
+  	text-transform: uppercase;
+  	text-decoration: none;
+  	color:red;
+}
+
+/*Typography*/
+
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* header */
+.masthead {
+  color:#ffffff;
+}
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2em;
+  	font-weight:bold;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+/* secton pragraphy */
+.questions-section > p,
+.introduction-section > p,
+.location-section > p
+                 {
+    
+    font-weight: 300;
+    letter-spacing: 0.05em;
+  	font-family:"lato","sans-serif";
+}
+
+.questions-section > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* Layout */
+    margin: 2em 0 1em 0;
+  	color:#ED7B18;
+}
+
+section > h1 {
+    margin-top: 2em;
+    color:red;
+}
+
+/* footer */
+
+.content-footer {
+  /* Red, Green, Blue: #RRGGBB */
+  background-color: #bada55;
+  border-radius:1em;
+  padding:0.5em;
+}
+
+.content-footer p {
+  font-family:"Gentium Book Basic",Georgia, serif;
+  text-transform: uppercase;
+  font-weight:bold;
+}
+
+
+/********** Media query ******************/
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+        font-size: 3em;
+    }
+    .masthead {
+        padding: 3em 0;
+    }
+  
+    .questions-section,
+    .introduction-section,
+    .location-section {
+        text-align: center;
+    }
+    .content-footer {
+      min-width:100%;
+      border-radius: 0em;
+      text-align: center;
+      padding:0.5em 0;
+
+    }
+
+    .content-footer  p {
+      font-size: 70%;
+
+    }
+
+    .content-footer .social {
+      margin :0 auto;
+    }
+    }
+    
+
+
+
+
