@@ -1,0 +1,295 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*---------------------------------------------*/
+
+body {
+    background-color: #fff;
+    font-family: 'roboto',sans-serif;
+     -webkit-font-smoothing: antialiased;
+
+}
+/**
+div {
+    border: 1px solid Chocolate;
+}
+**/
+/* Navigation Section */
+
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.top-navigation >  .content {
+    width: 732px;
+    height: 70px;
+    margin: 0 auto;
+    padding:0 15px;
+}
+
+.top-navigation .logo {
+    height:70px;
+}
+
+
+.top-navigation .links {
+    float: right;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+
+/* background image section */
+
+.information {
+    background-image: url('../img/first-background .jpg');
+    background-position:center bottom;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow:auto;
+
+}
+
+.information .content h1 {
+    color:white;
+    font-size:3em;
+    font-weight:300px;
+    text-align:center;
+    padding-top: 4.5em;
+}
+
+.information .content h3 {
+    color:white;
+    font-size:1.5em;
+    font-weight:300px;
+    text-align:center;
+    padding-top: 1em;
+
+}
+
+
+
+.big-button {
+    margin :2rem auto;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+
+    width: 9.688rem;
+    background-color:#f15a29;
+    font-size:1.125rem;
+    color:white;
+
+   display: block;
+}
+
+.big-button:hover {
+    cursor:pointer;
+    color:#421304;
+}
+
+/*
+.small-button {
+
+    margin :2rem auto;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+
+    width: 9.688rem;
+    background-color:#f15a29;
+    font-size:1.125rem;
+    color:white;
+    margin-left:2rem;
+   /* display: block;    
+}*/
+
+/* icon section */
+/* box-sizing: boeder-box; is not working, i did look up in the google and stackflow, but i cant find the answer.*/
+
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+    
+}
+
+.cases h2 {
+    
+    font-size:2.75rem;
+    font-weight:300;
+    margin: 1.625rem 0 3.125rem;
+    vertical-align: baseline;
+    
+}
+
+.cases .content {
+    margin-top: 7.875rem;
+    color: #1d1e21;
+    text-align: center;
+}
+
+.cases .devices {
+    display: inline-block;
+}
+
+.cases .devices > li {
+    width:33.33333333%;
+    float: left;
+/*  display:inline-block;*/
+    /*border: 1px solid black; */
+/*    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    height:4em;*/
+    /*margin :0 -6rem;*/
+}
+
+/* difficult for lining up horizontally the images and texts*/
+.cases .devices h3 {
+/*  width:33.33333333%;
+    display:inline-block;
+    font-weight:400;
+    font-size:1.563rem;
+    margin: 2.5rem 0px 1.875rem;*/
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+
+/* footer section */
+
+.social {
+    margin-top:8rem;
+    text-align: center;
+}
+
+/*
+.social hr {
+    margin-bottom:1.5rem;
+    margin-left :auto;
+    margin-right:auto;
+    width:650px;
+    border-color:#eaebec;
+}*/
+
+
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+    width:730px;
+    margin-left :auto;
+    margin-right:auto;
+} 
+
+.social .icons li {
+    border: 1px solid #eaebec;
+    width:2.5rem;
+    display:inline-block;
+    margin:1.25rem 5px;
+    border-radius: 1.125rem;
+    text-align:center;
+    padding: 0.625rem 0;
+}
+
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+
+
+}
+
+.copy p {
+    font-size:0.9rem;
+    font-weight:200px;
+    color:#838994;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
